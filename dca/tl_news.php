@@ -61,7 +61,7 @@ $arrFields = array
 		'eval'      => array('mandatory' => false, 'decodeEntities' => true, 'maxlength' => 255),
 		'sql'       => "varchar(255) NOT NULL default ''"
 	),
-	'autoplay'   => &$GLOBALS['TL_DCA']['tl_content']['fields']['autoplay'],
+//	'autoplay'   => &$GLOBALS['TL_DCA']['tl_content']['fields']['autoplay'],
 	'posterSRC'  => &$GLOBALS['TL_DCA']['tl_content']['fields']['posterSRC']
 );
 
